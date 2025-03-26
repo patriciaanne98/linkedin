@@ -1,0 +1,117 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing:inherit;
+}
+
+/* -----------Utility Classes------------- */
+
+/* Reset some base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: #f3f2ef;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .linkedin-post {
+    background: #ffffff;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 16px;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .post-description {
+    margin: 12px 0 16px;
+    color: #1d1d1d;
+    font-size: 0.95rem;
+  }
+  
+  .ad-container {
+    display: flex;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .ad-left {
+    background-color: red;
+    color: #ffffff;
+    flex: 1;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .ad-left h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  .cta-button {
+    background-color: #ffffff;
+    color: #0b6c4f;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    width: fit-content;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e6f2ee;
+  }
+  
+  .brand-name {
+    margin-top: 24px;
+    font-weight: bold;
+    text-transform: lowercase;
+  }
+  
+  .ad-right {
+    flex: 1;
+    background: url('https://solutionpartners.adobe.com/content/dam/solution/en/images/articles/adobe_gen_.png.img.png') center/cover no-repeat;
+  }
+  
+  .post-footer {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding-top: 12px;
+  }
+  
+  .learn-more-btn {
+    color: #0a66c2;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+
